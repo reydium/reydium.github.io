@@ -755,24 +755,47 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-u2hfghQZR3 {
+@media (max-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.cid-u6SAn8jXqu {
   background-color: #ffffff;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.cid-u2hfghQZR3 img {
+.cid-u6SAn8jXqu img {
   object-fit: contain;
   border-radius: 0 !important;
 }
-.cid-u2hfgVUYA8 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #edefeb;
+.cid-u6SAnVVRoY {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #090d1a;
 }
-.cid-u2hfgVUYA8 .mbr-fallback-image.disabled {
+.cid-u6SAnVVRoY .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-u2hfgVUYA8 .mbr-fallback-image {
+.cid-u6SAnVVRoY .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -781,31 +804,31 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-u2hfgVUYA8 .card-wrapper {
-  background: #ffffff;
+.cid-u6SAnVVRoY .card-wrapper {
+  background: #090d1a;
 }
 @media (max-width: 767px) {
-  .cid-u2hfgVUYA8 .card-wrapper {
+  .cid-u6SAnVVRoY .card-wrapper {
     padding: 2rem 1.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .cid-u2hfgVUYA8 .card-wrapper {
+  .cid-u6SAnVVRoY .card-wrapper {
     padding: 2.25rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-u2hfgVUYA8 .card-wrapper {
+  .cid-u6SAnVVRoY .card-wrapper {
     padding: 4rem;
   }
 }
-.cid-u2hfgVUYA8 .mbr-text,
-.cid-u2hfgVUYA8 .mbr-section-btn {
-  color: #000000;
+.cid-u6SAnVVRoY .mbr-text,
+.cid-u6SAnVVRoY .mbr-section-btn {
+  color: #edefeb;
   text-align: left;
 }
-.cid-u2hfgVUYA8 .card-title,
-.cid-u2hfgVUYA8 .card-box {
+.cid-u6SAnVVRoY .card-title,
+.cid-u6SAnVVRoY .card-box {
   text-align: left;
-  color: #000000;
+  color: #ffffff;
 }
